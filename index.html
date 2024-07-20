@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/hero_image.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="main" data-scroll-container data-scroll-spee="2" >
+
+        <header >
+            <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">services</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section id="home" data-scroll-section data-scroll-speed="2">
+        <h1>welcome to myonlinemeal.com</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas numquam explicabo velit reprehenderit sed veritatis quos id voluptatibus nulla fugit, veniam voluptas itaque! Fugit sint quos harum ratione in illo?</p>
+        <button class="btn">order</button>
+    </section>
+    
+    <section id="services" data-scroll-section data-scroll-speed="2">
+        <h1 class="h-primary">our services</h1>
+        <div class="box">
+            <img src="/images/food.png" alt="">
+            <h1>food</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vitae veniam, odio dicta fugit in similique velit aut, dolore ipsum dignissimos perspiciatis recusandae ut placeat? Eligendi velit id error quam.</p>
+
+        </div>
+        <div class="box">
+            <img src="/images/food2.png" alt="">
+            <h1>food</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis vitae veniam, odio dicta fugit in similique velit aut, dolore ipsum dignissimos perspiciatis recusandae ut placeat? Eligendi velit id error quam.</p>
+            
+        </div>
+    </section>
+    <section id="client-section" data-scroll-section data-scroll-speed="2">
+        <h1 class="h-primary">our client</h1>
+        <div id="client">
+            <div class="item">
+                <img src="/images/box3_image.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/box8_image.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/box5_image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact-section" data-scroll-section data-scroll-speed="2">
+        <h1 class="h-secondary">contact us</h1>
+        <div id="contact-box">
+            <form action="#">
+                <div class="group">
+                    name: <input type="text" name="name" placeholder="enter your name" >
+                </div>
+                <div class="group">
+                   email: <input type="email" name="name" placeholder="enter your email" >
+                </div>
+                <div class="group">
+                   message:<textarea name="message" id="message" cols="30" rows="10">enter your message</textarea>
+                </div>
+                <div class="group">
+                    <button class="set">Submit</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="center">
+                copyright&copy;www.myonlinemeal.com
+            </div>
+        </footer>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
